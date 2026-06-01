@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+    justify-self:center ;
+}
+
+header{
+    position: sticky;
+    top:0px;
+    background-color: rgb(8, 15, 17);
+    justify-items: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+header a{
+    text-decoration: none;
+    padding:  1rem;
+    border-radius:  10px;
+    color:white;
+
+}
+header li {
+    display : inline;
+    list-style: none;
+    padding:  1rem .5rem;
+}
+.about{
+    background-color: rgb(20, 20, 20);
+    color: rgb(248, 249, 248);
+    justify-self: center;
+    width: 75%;
+    margin: 2rem auto;
+    border-radius: 30px;
+    display: grid;
+    border-bottom: 2px solid white;
+    font-size: clamp(.1rem, 3vw, 2rem);
+    grid-template-columns: auto auto;
+}
+.about h1{
+    color: rgb(8, 196, 14);
+}
+.about img{
+    width: 300px;
+    border-radius: 50px;
+    margin: 1rem;
+    box-shadow: 2px 1px 2px rgba(193, 194, 193, 0.759);
+}
+
+.about p{
+    margin-top: 5%;
+    font-size: clamp(.1rem, 2vw, 1.5rem);
+    /* color: rgb(8, 181, 8); */
+
+}
+.profile-content{
+
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+
+}
+
+.skills{
+    background-color: rgba(39, 51, 38, 0.545);
+    display:  flex;
+    width: 70%;
+    justify-self: center;
+    border-radius: 30px;
+    justify-content: space-around;
+    padding:  2em;
+    margin: auto 1em;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+
+}
+.skill-container{
+    padding: 1rem;
+    border-radius: 20px;
+    background: linear-gradient(90deg , rgb(3, 72, 5),  rgb(2, 132, 39));
+
+}
+.skill-name{
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.project{
+    width: 70%;
+    margin: 1rem auto;
+    justify-self: center;
+    font-size: 1.4rem;
+
+}
+
+.project-container{
+    padding: 3rem;
+    margin: 2rem ;
+    border-radius: 20px;
+    border-bottom: 2px solid yellow;
+    background-color: rgba(34, 34, 34, 0.518);
+
+}
+
+.project-title{
+    padding: 1rem;
+    justify-self: center;
+    color: white;
+}
+
+.project-experience{
+    color:greenyellow;
+    justify-self: end;
+    
+}
+
+
+.project-description{
+    padding: 2rem;
+    color:rgb(224, 225, 222)
+}
+
+.project-image{
+    width: 100%;
+    max-height: 600px;
+    justify-self: center;
+}
+
+.contact{
+    color: white;
+    justify-items: center;
+    border-top: 1px solid wheat;
+}
+
+.contact-container{
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.contact-container a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
